@@ -10,7 +10,7 @@ const comments = [
         name: "유재석",
         comment:"안녕하세요 유재석 입니다."
     },
-        {
+        {ç
         name: "강민경",
         comment:"리액트 같이 공부해요."
     },
