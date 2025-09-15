@@ -8,11 +8,14 @@ import Library from './chapter03/Library';
 import Clock from './chapter04/Clock';
 import CommentList from './chapter05/CommentList';
 import NotificationList from './chapter06/NotificationList';  
+import Accommdoate from './chapter07/Accommodate';
+import ConfirmButton from './chapter08/ConfirmButton';
+import ConfirmButton1 from './chapter08/ConfirmButton1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <ConfirmButton1 />
   </React.StrictMode>
 
 );
