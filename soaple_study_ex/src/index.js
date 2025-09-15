@@ -7,14 +7,25 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter03/Library';  
 import Clock from './chapter04/Clock';
 import CommentList from './chapter05/CommentList';
+import NotificationList from './chapter06/NotificationList';  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <NotificationList />
+  </React.StrictMode>
+
+);
+
+/*
 root.render(
   <React.StrictMode>
     <CommentList />
   </React.StrictMode>
 
 );
+*/
+
 
 /*setInterval(() => { 
   root.render(
