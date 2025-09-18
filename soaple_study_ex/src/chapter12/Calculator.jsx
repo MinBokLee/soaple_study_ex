@@ -21,15 +21,21 @@ function toFahrenheit(celsius){
     return (celsius * 9) /5 +32;
 }
 
+
+// - 입력값을 변환하는 함수
+// - temperature: 입력된 값 (string)
+// - convert: 변환 함수(toCelsius 또는 toFahrenheit)
 function tryConvert(temperature, convert){
     const input= parseFloat(temperature);
+    
+    // 숫자가 아닌 경우, 빈 문자열 반환
     if(Number.isNaN(input)){
         return "";
     }
 
     const output = convert(input);
     const rounded = Math.round(output * 1000) / 1000;
-    return rounded.toString();   
+    return rounded.toString();   // 문자열로 변환해서 반환
 }
 
 function Calculator(props){
